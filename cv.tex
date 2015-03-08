@@ -3,32 +3,32 @@
 \moderncvcolor{blue}
 \nopagenumbers{}
 
-\usepackage[scale=0.8, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[scale=0.8, top=2.05cm, bottom=2.05cm]{geometry}
 
 \name{Ashley}{Feniello}
 \title{Principal Research SDE}
-\address{11842 173rd Place NE}{Redmond, WA 98052}
+% \address{11842 173rd Place NE}{Redmond, WA 98052}
 \mobile{425-241-4776}
-\email{ashley.feniello@live.com}
+\email{ashleyf@briefrobotics.com}
 \social[linkedin]{ashleyf}
 \social[github]{ashleyf}
 \extrainfo{\httplink{http://blogs.msdn.com/ashleyf}}
-\photo[76pt][0.4pt]{pic.jpg}
+\photo[76pt][0.4pt]{picbw.jpg}
 % \quote{``The best way to predict the future is to invent it.'' -- Alan Kay}
 
 \begin{document}
 \makecvtitle
 
-\vspace*{-0.5cm}
+% \vspace*{-0.0cm}
 
 \section{Brief Robotics}
 
-\cventry{\large 2014--{\small Present}}{Founder}{\small 6 months}{}{}{My partner and I have developed several interesting incubation projects (ask me in person). I've been enjoying life outside the Microsoft filter bubble; using Ubuntu/OS X, AWS, Python, Node.js, Xamarin/Mono (still F\#), C, Forth, ...}
+\cventry{\large 2014--{\small Present}}{Founder}{working with a partner}{}{}{We've developed several interesting incubation projects (ask me in person). Enjoying life outside the Microsoft filter bubble; Ubuntu/OS X, AWS, Python, Node.js, Xamarin/Mono (still F\#), C, Forth, ...}
 
 \section{Microsoft Corporation{\small, 15 years}}
 
 \cventry{\large 2011--2014}{Robotics, Microsoft Research}{\small 3 years}{}{}{
-Produced beautiful hardware platform. Built beyond state of the art Kinect-based SLAM and navigation system. Published program synthesis system applied to learning manipulation tasks.}
+Produced a beautiful hardware platform. Built beyond state-of-the-art Kinect-based SLAM and navigation system. Published program synthesis system applied to learning manipulation tasks.}
 \vspace{3pt}
 
 \cvline{Manipulation}{
@@ -42,16 +42,16 @@ Produced beautiful hardware platform. Built beyond state of the art Kinect-based
 \cvline{Navigation}{
     \begin{itemize}
         \item Navigation paper accepted to ICRA 2015
-        \item Implemented Path planning and tracking for indoor navigation {\tiny (C\#)}
+        \item Implemented path planning and tracking for indoor navigation {\tiny (C\#)}
         \item Invented novel skeletonization and path smoothing algorithm
-        \item Worked on SLAM pipeline, IMU odometry, obstacle avoidance, metrics {\tiny (C++, C\#)}
-        \item Built team wide infrastructure (FSM, UDP chunking, immutable agents) {\tiny (C++, C\#)}
+        \item Worked on SLAM pipeline, IMU odometry, obstacle avoidance, metrics system {\tiny (C++, C\#)}
+        \item Built team-wide infrastructure (FSM, UDP chunking, immutable agents) {\tiny (C++, C\#)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
 \cvline{Firmware}{
     \begin{itemize}
-        \item Invented (Forth-inspired) language and microcontroller VM {\tiny (C)}
+        \item Invented Forth-inspired language and microcontroller VM {\tiny (C)}
         \item Wrote compiler, IL translator and wire protocol {\tiny (F\#, IL, C)}
         \item Developed SDK class library; encapsulating firmware while exposing scriptability {\tiny (C\#)}
     \end{itemize}
@@ -59,9 +59,15 @@ Produced beautiful hardware platform. Built beyond state of the art Kinect-based
 
 \cvline{``Max''}{
     \begin{itemize}
-        \item Designed robot dev kit (RDK), API set, MVVM framework, app sandbox {\tiny (C\#, Silverlight)}
+        \item Designed robot dev kit (RDK), API set, integrated MVVM framework {\tiny (C\#, Silverlight)}
         \item Built apps for the robot -- Unboxing, Meet, Virtual Visit, Network, ... {\tiny (C++, C\#, Silverlight)}
         \item Prototyped kid's programming language and environment {\tiny (F\#, WPF, ASP.NET)}
+    \end{itemize}
+    \vspace*{-\baselineskip}}
+
+\cvline{Gratifying}{
+    \begin{itemize}
+        \item Built eye gaze driven wheelchair for people with ALS; won company wide Hackathon {\tiny (C\#, Rx)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
@@ -72,7 +78,7 @@ This was a business incubation group; productizing MSR technology and ideas form
 \cvline{OneApp}{
     \begin{itemize}
         \item Lead developer on OneApp SDK team
-        \item Ran workshops and partner training
+        \item Presented workshops and ran partner training
         \item Worked on server-side JavaScript compiler {\tiny (C\#, JavaScript/ECMAScript)}
         \item Built ``App Store'' service and database {\tiny (F\#, SQL)}
         \item Worked on Visual Studio integration, background compilation and type inference {\tiny (C\#)}
@@ -88,16 +94,17 @@ This was a business incubation group; productizing MSR technology and ideas form
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{Miscellaneous}{
+\cvline{}{
     \begin{itemize}
         \item Wrote OneFish prototype -- DeepFish/SeaDragon for mobile {\tiny (C++, C\#, JavaScript)}
         \item Built Bing Maps OneApp client and proxy -- local search, routing {\tiny (F\#, JavaScript)}
         \item Demoed to executives, resulting in graduation of product and team to Bing
+        \item Gave several functional programming and F\# talks
     \end{itemize}
     \vspace*{-\baselineskip}}
 
 \cventry{\large 2006--2008}{Mobile/Embedded Division}{2.5 years}{}{}{
-This was mobile in the days of the ``SmartPhone'' and ``PocketPC'', before the iPhone even existed. Maps and routing with GPS turn-by-turn directions was impressive at the time.}
+This was mobile in the days of the ``SmartPhone'' and ``PocketPC'', before the iPhone even existed. Maps and routing with GPS turn-by-turn directions was quite impressive at the time.}
 \vspace{3pt}
 
 \cvline{Search Client}{
@@ -111,14 +118,7 @@ This was mobile in the days of the ``SmartPhone'' and ``PocketPC'', before the i
     \vspace*{-\baselineskip}}
 
 \cventry{\large 2003--2006}{Live/Bing Search}{2.5 years}{}{}{
-I joined in the early days and shipped Search v1. Then, with one other dev, shipped Local Search and Maps v1, along with smaller features such as Movies and Music instant answers.}
-
-\cvline{Infrastructure}{
-    \begin{itemize}
-        \item Worked on core web server -- built from scratch using http.sys and netlib {\tiny (C++)}
-        \item Designed and implemented localization infrastructure -- 50 languages {\tiny (C++)}
-    \end{itemize}
-    \vspace*{-\baselineskip}}
+I joined in the early days and shipped Search v1. Then, with one other dev, shipped Local Search and Maps v1, along with smaller features such as movies, music and Encarta instant answers.}
 
 \cvline{Local Search}{
     \begin{itemize}
@@ -128,10 +128,17 @@ I joined in the early days and shipped Search v1. Then, with one other dev, ship
     \end{itemize}
     \vspace*{-\baselineskip}}
 
+\cvline{Infrastructure}{
+    \begin{itemize}
+        \item Worked on core web server -- built from scratch using http.sys and netlib {\tiny (C++)}
+        \item Designed and implemented localization infrastructure -- 50 languages {\tiny (C++)}
+    \end{itemize}
+    \vspace*{-\baselineskip}}
+
 \cvline{Answers}{
     \begin{itemize}
         \item Worked on instant answer federation pipeline {\tiny (C++)}
-        \item Built and shipped Movies, Music and Encarta instant answers {\tiny (C++)}
+        \item Built and shipped movies, music and Encarta instant answers {\tiny (C++)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
@@ -148,7 +155,7 @@ Here I worked on the rendering engine, editorial tools and Home and MyMSN pages 
     \vspace*{-\baselineskip}}
 
 \section{Intel Corporation{\small, Folsom, CA}}
-\cventry{\large 1998--1999}{CDAM Databace Management Group}{1.5 years}{}{}{
+\cventry{\large 1998--1999}{Database Management Group, CDAM}{1.5 years}{}{}{
 Built company-wide metadata system for managing database and SAP object dependencies. Wrote COM interfaces to legacy systems. {\tiny (SQL, Oracle, C++, COM)}}
 
 \section{Previous}
@@ -156,6 +163,16 @@ Built company-wide metadata system for managing database and SAP object dependen
 
 \cventry{\large 1993--1996}{Thoen Publishing}{3 years}{}{}{Revolutionized pagination and image setting processes. Migrated publications to the web.}
 \cventry{\large 1992--1993}{Moscow-Pullman Daily News}{1.5 years}{}{}{Migrated aging Hastech typesetting system to Macintoshes, QuarkXPress and image setters.}
+
+\section{Side Projects}
+
+\cvline{}{
+    \begin{itemize}
+        \item Finishing a book, ``Forthwright'' -- covering Forth in detail and Charles Moore's career
+        \item My own language, ``Brief'' -- a fixed arity, normal order, concatenative language
+        \item Several active open source projects (see http://github.com/ashleyf)
+    \end{itemize}
+    \vspace*{-\baselineskip}}
 
 % \section{Certifications}
 % \cventry{2012}{Functional Programming Principles in Scala}{Coursera}{}{}{}
