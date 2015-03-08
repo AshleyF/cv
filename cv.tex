@@ -3,7 +3,7 @@
 \moderncvcolor{blue}
 \nopagenumbers{}
 
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.8, top=2.5cm, bottom=2.5cm]{geometry}
 
 \name{Ashley}{Feniello}
 \title{Principal Research SDE}
@@ -14,18 +14,20 @@
 \social[github]{ashleyf}
 \extrainfo{\httplink{http://blogs.msdn.com/ashleyf}}
 \photo[76pt][0.4pt]{pic.jpg}
-\quote{``The best way to predict the future is to invent it.'' -- Alan Kay}
+% \quote{``The best way to predict the future is to invent it.'' -- Alan Kay}
 
 \begin{document}
 \makecvtitle
 
+\vspace*{-0.5cm}
+
 \section{Brief Robotics}
 
-\cventry{2014--Present}{Founder}{\small 6 months}{}{}{Several interesting incubation projects (ask me in person). Enjoying life outside the Microsoft filter bubble; Ubuntu/OS X, AWS, Python, Node.js, Xamarin/Mono (still F\#), C, Forth, ...}
+\cventry{\large 2014--{\small Present}}{Founder}{\small 6 months}{}{}{My partner and I have developed several interesting incubation projects (ask me in person). I've been enjoying life outside the Microsoft filter bubble; using Ubuntu/OS X, AWS, Python, Node.js, Xamarin/Mono (still F\#), C, Forth, ...}
 
-\section{Microsoft Corporation{\small , 15 years}}
+\section{Microsoft Corporation{\small, 15 years}}
 
-\cventry{2011--2014}{Robotics, Microsoft Research}{\small 3 years}{}{}{
+\cventry{\large 2011--2014}{Robotics, Microsoft Research}{\small 3 years}{}{}{
 Produced beautiful hardware platform. Built beyond state of the art Kinect-based SLAM and navigation system. Published program synthesis system applied to learning manipulation tasks.}
 \vspace{3pt}
 
@@ -63,8 +65,8 @@ Produced beautiful hardware platform. Built beyond state of the art Kinect-based
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cventry{2008--2011}{Startup Business Group/UPG}{\small 3 years}{}{}{
-This is a test... Now is the time for all good men to come to the aid of their country. The quick brown fox jumps over the lazy dog.}
+\cventry{\large 2008--2011}{Startup Business Group/UPG}{\small 3 years}{}{}{
+This was a business incubation group; productizing MSR technology and ideas formed within the group. I worked on several projects that ``graduated'' to Bing, Azure and other groups.}
 \vspace{3pt}
 
 \cvline{OneApp}{
@@ -73,85 +75,103 @@ This is a test... Now is the time for all good men to come to the aid of their c
         \item Ran workshops and partner training
         \item Worked on server-side JavaScript compiler {\tiny (C\#, JavaScript/ECMAScript)}
         \item Built ``App Store'' service and database {\tiny (F\#, SQL)}
-        \item Worked on Visual Studio integration, background compilation and type inference
+        \item Worked on Visual Studio integration, background compilation and type inference {\tiny (C\#)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
 \cvline{Azure Mobile}{
     \begin{itemize}
-        \item Service Adapter Proxy
-        \item OneFish prototype - DeepFish/SeaDragon for mobile, cross-group
-        \item Trident rendering server-side (tiled)
-        \item Anchor tags and client-side script
-        \item Bing Maps/Local Search prototype
-        \item Demo'd to Amit Mital, Walid, Anoop
-        \item Azure Mobile Services, Lead
+        \item Team lead for Azure Mobile Services
+        \item Invented cross-platform, binary compression protocol {\tiny (F\#, C\#/WinMo, Objective-C/iOS, Java/Android)}
+        \item Wrote mobile Service Adapter Proxy and client libraries {\tiny (F\#, ASP.NET)}
+        \item Integrated Trident engine for server-side tiled rendering {\tiny (C++)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cventry{2006--2008}{Mobile/Embedded Division}{2.5 years}{}{}{
-Now is the time for all good men to come to the aid of their country. Now is the time for all good men to come to the aid of their country.}
+\cvline{Miscellaneous}{
+    \begin{itemize}
+        \item Wrote OneFish prototype -- DeepFish/SeaDragon for mobile {\tiny (C++, C\#, JavaScript)}
+        \item Built Bing Maps OneApp client and proxy -- local search, routing {\tiny (F\#, JavaScript)}
+        \item Demoed to executives, resulting in graduation of product and team to Bing
+    \end{itemize}
+    \vspace*{-\baselineskip}}
+
+\cventry{\large 2006--2008}{Mobile/Embedded Division}{2.5 years}{}{}{
+This was mobile in the days of the ``SmartPhone'' and ``PocketPC'', before the iPhone even existed. Maps and routing with GPS turn-by-turn directions was impressive at the time.}
 \vspace{3pt}
 
 \cvline{Search Client}{
     \begin{itemize}
-        \item Shipped in ROM
-        \item GPS integration
-        \item Turn-by-turn prompts
-        \item Performance re-architecting
-        \item UX framework for WinMo7 version
-        \item Spoke and MEDC 2007
+        \item Speaker at MEDC 2007 on mobile Compact .NET Framework development
+        \item Shipped, with one other dev, ``Live Search for Mobile'' in Windows Mobile ROM
+        \item Wrote GPS integration, turn-by-turn prompting and parts of map control {\tiny (C\#, .NETCF)}
+        \item Designed UX framework for subsequent Windows Mobile 7 version {\tiny (C\#, XAML)}
+        \item Earlier, ported MapPoint engine to mobile; building an offline app {\tiny (C++, C\#)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{``Caravel''}{
+\cventry{\large 2003--2006}{Live/Bing Search}{2.5 years}{}{}{
+I joined in the early days and shipped Search v1. Then, with one other dev, shipped Local Search and Maps v1, along with smaller features such as Movies and Music instant answers.}
+
+\cvline{Infrastructure}{
     \begin{itemize}
-        \item Mobile GPS navigation client for SmartPhone/PocketPC
+        \item Worked on core web server -- built from scratch using http.sys and netlib {\tiny (C++)}
+        \item Designed and implemented localization infrastructure -- 50 languages {\tiny (C++)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cventry{2003--2006}{Live/Bing Search}{2.5 years}{}{}{}
-
-\cventry{2000--2003}{MSN Home/My}{3.5 years}{}{}{}
-
-\cventry{1999--2000}{MSN Promotions}{9 months}{}{}{}
-
-\section{Intel}
-\cventry{1998--1999}{CDAM Databace Management Group}{1.5 years}{}{}{}
-
-\section{Insights International}
-\cventry{1996--1998}{Internet Startup}{1.5 years}{}{}{
+\cvline{Local Search}{
     \begin{itemize}
-        \item Employee \#1
-        \item Database management and web development
-        \item Systems engineering
-    \end{itemize}}
+        \item Invented/patented method for location-based search in an inverted index
+        \item Built local data ingestion, hygiene and indexing pipeline {\tiny (C++)}
+        \item Integrated TerraServer aerial imagery (before Virtual Earth existed) {\tiny (C++, JavaScript)}
+    \end{itemize}
+    \vspace*{-\baselineskip}}
 
-\section{Thoen Publishing}
-\cventry{1993--1996}{Pagination Automation}{3 years}{}{}{
+\cvline{Answers}{
     \begin{itemize}
-        \item Publishing process automation
-        \item Migrating paper publications to the web
-    \end{itemize}}
+        \item Worked on instant answer federation pipeline {\tiny (C++)}
+        \item Built and shipped Movies, Music and Encarta instant answers {\tiny (C++)}
+    \end{itemize}
+    \vspace*{-\baselineskip}}
 
-\section{Moscow-Pullman Daily News}
-\cventry{1992--1993}{Automation}{1.5 years}{}{}{}
+\cventry{\large 1999--2003}{MSN Home/My}{4.5 years}{}{}{
+Here I worked on the rendering engine, editorial tools and Home and MyMSN pages worldwide (including a trip to Japan to ship msn.co.jp). We shipped v7 on a pre-release build of .NET.}
 
-\section{Certifications}
-\cventry{2012}{Functional Programming Principles in Scala}{Coursera}{}{}{}
-\cventry{1999}{Microsoft Certified Solutions Developer}{Microsoft}{}{}{}
-\cventry{1997}{Sun Certified Java Developer}{Sun Microsystems}{}{}{}
-\cventry{1997}{Microsoft Certified Systems Engineer}{Microsoft}{}{}{}
+\cvline{}{
+    \begin{itemize}
+        \item Invented XSLT-based publishing engine for co-branding and localization {\tiny (XSLT, C\#)}
+        \item Wrote major portions of the ``Granite'' rendering engine for static content {\tiny (C\#, XSLT)}
+        \item Wrote dynamic client-side modules (stocks, weather, sports, ...) {\tiny (JavaScript)}
+        \item Went to Japan to train staff on publishing tools and helped build and ship msn.co.jp
+    \end{itemize}
+    \vspace*{-\baselineskip}}
 
-\section{Patents}
-\cventry{2014}{Program Synthesis for Robotic Tasks}{}{}{}{}
-\cventry{2014}{Robotic Task Demonstration Interface}{}{}{}{}
-\cventry{2011}{Night Vision for Robotic RGBD Sensors}{}{}{}{}
-\cventry{2009}{Device Independent On-demand Compiling of Mobile Applications}{}{}{}{}
-\cventry{2011}{Efficient Transformation from XML to JavaScript Objects}{}{}{}{}
-\cventry{2010}{Light Weight Data and Media Transformation}{}{}{}{}
-\cventry{2009}{Caching Navigation Content for Intermittently Connected Devices}{}{}{}{}
-\cventry{2005}{Geolocal Search in an Inverted Index}{}{}{}{}
+\section{Intel Corporation{\small, Folsom, CA}}
+\cventry{\large 1998--1999}{CDAM Databace Management Group}{1.5 years}{}{}{
+Built company-wide metadata system for managing database and SAP object dependencies. Wrote COM interfaces to legacy systems. {\tiny (SQL, Oracle, C++, COM)}}
+
+\section{Previous}
+\cventry{\large 1996--1998}{Insights International}{1.5 years}{}{}{I was employee \#1 at this Internet startup; handling systems engineering and software development.}
+
+\cventry{\large 1993--1996}{Thoen Publishing}{3 years}{}{}{Revolutionized pagination and image setting processes. Migrated publications to the web.}
+\cventry{\large 1992--1993}{Moscow-Pullman Daily News}{1.5 years}{}{}{Migrated aging Hastech typesetting system to Macintoshes, QuarkXPress and image setters.}
+
+% \section{Certifications}
+% \cventry{2012}{Functional Programming Principles in Scala}{Coursera}{}{}{}
+% \cventry{1999}{Microsoft Certified Solutions Developer}{Microsoft}{}{}{}
+% \cventry{1997}{Sun Certified Java Developer}{Sun Microsystems}{}{}{}
+% \cventry{1997}{Microsoft Certified Systems Engineer}{Microsoft}{}{}{}
+% 
+% \section{Patents}
+% \cventry{2014}{Program Synthesis for Robotic Tasks}{}{}{}{}
+% \cventry{2014}{Robotic Task Demonstration Interface}{}{}{}{}
+% \cventry{2011}{Night Vision for Robotic RGBD Sensors}{}{}{}{}
+% \cventry{2011}{Efficient Transformation from XML to JavaScript Objects}{}{}{}{}
+% \cventry{2010}{Light Weight Data and Media Transformation}{}{}{}{}
+% \cventry{2009}{Device Independent On-demand Compiling of Mobile Applications}{}{}{}{}
+% \cventry{2009}{Caching Navigation Content for Intermittently Connected Devices}{}{}{}{}
+% \cventry{2005}{Geolocal Search in an Inverted Index}{}{}{}{}
 
 % \section{Experience}
 % \subsection{Vocational}
@@ -221,21 +241,21 @@ Now is the time for all good men to come to the aid of their country. Now is the
 %\bibliographystylebook{plain}
 %\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
 
-\clearpage
-%-----       letter       ---------------------------------------------------------
-% recipient data
-\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-\date{January 01, 1984}
-\opening{Dear Sir or Madam,}
-\closing{Yours faithfully,}
-\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-\makelettertitle
-
-Albert Einstein discovered that $e=mc^2$ in 1905.
-
-\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
-
-\makeletterclosing
+% \clearpage
+% %-----       letter       ---------------------------------------------------------
+% % recipient data
+% \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+% \date{January 01, 1984}
+% \opening{Dear Sir or Madam,}
+% \closing{Yours faithfully,}
+% \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+% \makelettertitle
+% 
+% Albert Einstein discovered that $e=mc^2$ in 1905.
+% 
+% \[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+% 
+% \makeletterclosing
 
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
