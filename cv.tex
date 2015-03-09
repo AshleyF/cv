@@ -3,7 +3,8 @@
 \moderncvcolor{blue}
 \nopagenumbers{}
 
-\usepackage[scale=0.8, top=2.05cm, bottom=2.05cm]{geometry}
+\usepackage[scale=0.8]{geometry}
+% \usepackage[scale=0.8, top=2.05cm, bottom=2.05cm]{geometry}
 
 \name{Ashley}{Feniello}
 \title{Principal Research SDE}
@@ -28,20 +29,21 @@
 \section{Microsoft Corporation{\small, 15 years}}
 
 \cventry{\large 2011--2014}{Robotics, Microsoft Research}{\small 3 years}{}{}{
-Produced a beautiful hardware platform. Built beyond state-of-the-art Kinect-based SLAM and navigation system. Published program synthesis system applied to learning manipulation tasks.}
+Produced a beautiful hardware platform. Built beyond state-of-the-art Kinect-based mapping and navigation system. Published program synthesis system applied to learning manipulation tasks.}
 \vspace{3pt}
 
-\cvline{Manipulation}{
+\cvline{\scriptsize Manipulation}{
     \begin{itemize}
         \item Presented {\href{https://www.dropbox.com/s/gpsx5ka3oij4u1t/IROS14_0675_FI.pdf?dl=0}{program synthesis paper}} at iROS 2014 (lead author)
         \item Created learning by demonstration system, program synthesis, 3D sim {\tiny (F\#, WPF3D)}
         \item Integrated object detection/recognition, grasp planning {\tiny (C++, C\#)}
+        \item Executed tasks using Kuka LBR, UR5 and Mico arms
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{Navigation}{
+\cvline{\scriptsize Navigation}{
     \begin{itemize}
-        \item Navigation paper accepted to ICRA 2015
+        \item Indoor localization, mapping and navigation paper accepted to ICRA 2015
         \item Implemented path planning and tracking for indoor navigation {\tiny (C\#)}
         \item Invented novel skeletonization and path smoothing algorithm
         \item Worked on SLAM pipeline, IMU odometry, obstacle avoidance, metrics system {\tiny (C++, C\#)}
@@ -49,15 +51,15 @@ Produced a beautiful hardware platform. Built beyond state-of-the-art Kinect-bas
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{Firmware}{
+\cvline{\scriptsize Firmware}{
     \begin{itemize}
-        \item Invented Forth-inspired language and microcontroller VM {\tiny (C)}
-        \item Wrote compiler, IL translator and wire protocol {\tiny (F\#, IL, C)}
+        \item Invented Forth-inspired scriptable firmware language and microcontroller VM {\tiny (C)}
+        \item Wrote compiler, interactive REPL, IL translator and wire protocol {\tiny (F\#, IL, C)}
         \item Developed SDK class library; encapsulating firmware while exposing scriptability {\tiny (C\#)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{``Max''}{
+\cvline{\scriptsize ``Max'' Robot}{
     \begin{itemize}
         \item Designed robot dev kit (RDK), API set, integrated MVVM framework {\tiny (C\#, Silverlight)}
         \item Built apps for the robot -- Unboxing, Meet, Virtual Visit, Network, ... {\tiny (C++, C\#, Silverlight)}
@@ -65,7 +67,7 @@ Produced a beautiful hardware platform. Built beyond state-of-the-art Kinect-bas
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{Gratifying}{
+\cvline{\scriptsize Eye Gaze}{
     \begin{itemize}
         \item Built eye gaze driven wheelchair for people with ALS; won company wide Hackathon {\tiny (C\#, Rx)}
     \end{itemize}
@@ -75,9 +77,9 @@ Produced a beautiful hardware platform. Built beyond state-of-the-art Kinect-bas
 This was a business incubation group; productizing MSR technology and ideas formed within the group. I worked on several projects that ``graduated'' to Bing, Azure and other groups.}
 \vspace{3pt}
 
-\cvline{OneApp}{
+\cvline{\scriptsize OneApp}{
     \begin{itemize}
-        \item Lead developer on OneApp SDK team
+        \item Lead developer on cross-device mobile OneApp SDK team
         \item Presented workshops and ran partner training
         \item Worked on server-side JavaScript compiler {\tiny (C\#, JavaScript/ECMAScript)}
         \item Built ``App Store'' service and database {\tiny (F\#, SQL)}
@@ -85,7 +87,7 @@ This was a business incubation group; productizing MSR technology and ideas form
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{Azure Mobile}{
+\cvline{\scriptsize Azure Mobile}{
     \begin{itemize}
         \item Team lead for Azure Mobile Services
         \item Invented cross-platform, binary compression protocol {\tiny (F\#, C\#/WinMo, Objective-C/iOS, Java/Android)}
@@ -107,7 +109,7 @@ This was a business incubation group; productizing MSR technology and ideas form
 This was mobile in the days of the ``SmartPhone'' and ``PocketPC'', before the iPhone even existed. Maps and routing with GPS turn-by-turn directions was quite impressive at the time.}
 \vspace{3pt}
 
-\cvline{Search Client}{
+\cvline{\scriptsize Mobile Search}{
     \begin{itemize}
         \item Speaker at MEDC 2007 on mobile Compact .NET Framework development
         \item Shipped, with one other dev, ``Live Search for Mobile'' in Windows Mobile ROM
@@ -120,7 +122,7 @@ This was mobile in the days of the ``SmartPhone'' and ``PocketPC'', before the i
 \cventry{\large 2003--2006}{Live/Bing Search}{2.5 years}{}{}{
 I joined in the early days and shipped Search v1. Then, with one other dev, shipped Local Search and Maps v1, along with smaller features such as movies, music and Encarta instant answers.}
 
-\cvline{Local Search}{
+\cvline{\scriptsize Local Search}{
     \begin{itemize}
         \item Invented/patented method for location-based search in an inverted index
         \item Built local data ingestion, hygiene and indexing pipeline {\tiny (C++)}
@@ -128,14 +130,14 @@ I joined in the early days and shipped Search v1. Then, with one other dev, ship
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{Infrastructure}{
+\cvline{\scriptsize Infrastructure}{
     \begin{itemize}
         \item Worked on core web server -- built from scratch using http.sys and netlib {\tiny (C++)}
         \item Designed and implemented localization infrastructure -- 50 languages {\tiny (C++)}
     \end{itemize}
     \vspace*{-\baselineskip}}
 
-\cvline{Answers}{
+\cvline{\scriptsize Instant Answers}{
     \begin{itemize}
         \item Worked on instant answer federation pipeline {\tiny (C++)}
         \item Built and shipped movies, music and Encarta instant answers {\tiny (C++)}
@@ -158,21 +160,21 @@ Here I worked on the rendering engine, editorial tools and Home and MyMSN pages 
 \cventry{\large 1998--1999}{Database Management Group, CDAM}{1.5 years}{}{}{
 Built company-wide metadata system for managing database and SAP object dependencies. Wrote COM interfaces to legacy systems. {\tiny (SQL, Oracle, C++, COM)}}
 
-\section{Previous}
-\cventry{\large 1996--1998}{Insights International}{1.5 years}{}{}{I was employee \#1 at this Internet startup; handling systems engineering and software development.}
+% \section{Previous}
+% \cventry{\large 1996--1998}{Insights International}{1.5 years}{}{}{I was employee \#1 at this Internet startup; handling systems engineering and software development.}
+% 
+% \cventry{\large 1993--1996}{Thoen Publishing}{3 years}{}{}{Revolutionized pagination and image setting processes. Migrated publications to the web.}
+% \cventry{\large 1992--1993}{Moscow-Pullman Daily News}{1.5 years}{}{}{Migrated aging Hastech typesetting system to Macintoshes, QuarkXPress and image setters.}
 
-\cventry{\large 1993--1996}{Thoen Publishing}{3 years}{}{}{Revolutionized pagination and image setting processes. Migrated publications to the web.}
-\cventry{\large 1992--1993}{Moscow-Pullman Daily News}{1.5 years}{}{}{Migrated aging Hastech typesetting system to Macintoshes, QuarkXPress and image setters.}
-
-\section{Side Projects}
-
-\cvline{}{
-    \begin{itemize}
-        \item Finishing a book, ``Forthwright'' -- covering Forth in detail and Charles Moore's career
-        \item My own language, ``Brief'' -- a fixed arity, normal order, concatenative language
-        \item Several active open source projects (see http://github.com/ashleyf)
-    \end{itemize}
-    \vspace*{-\baselineskip}}
+% \section{Side Projects}
+% 
+% \cvline{}{
+%     \begin{itemize}
+%         \item Finishing a book, ``Forthwright'' -- covering Forth in detail and Charles Moore's career
+%         \item My own language, ``Brief'' -- a fixed arity, normal order, concatenative language
+%         \item Environment and curriculum for teaching  programming and robotics to kids
+%     \end{itemize}
+%     \vspace*{-\baselineskip}}
 
 % \section{Certifications}
 % \cventry{2012}{Functional Programming Principles in Scala}{Coursera}{}{}{}
@@ -261,18 +263,13 @@ Built company-wide metadata system for managing database and SAP object dependen
 % \clearpage
 % %-----       letter       ---------------------------------------------------------
 % % recipient data
-% \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-% \date{January 01, 1984}
+% \recipient{Company Recruitment team}{UIEvolution\\11332 NE 122nd Way, Suite 300\\Kirkland, WA 98032}
+% \date{March 9, 2015}
 % \opening{Dear Sir or Madam,}
-% \closing{Yours faithfully,}
-% \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+% \closing{Sincerely,}
+% \enclosure[Attached]{curriculum vit\ae{}}
 % \makelettertitle
-% 
-% Albert Einstein discovered that $e=mc^2$ in 1905.
-% 
-% \[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
 % 
 % \makeletterclosing
 
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
