@@ -3,11 +3,14 @@
 \moderncvcolor{blue}
 \nopagenumbers{}
 
+\usepackage{xpatch}
+\xpatchcmd\cventry{,}{}{}{}
+
 \usepackage[scale=0.8]{geometry}
 % \usepackage[scale=0.8, top=2.05cm, bottom=2.05cm]{geometry}
 
 \name{Ashley}{Feniello}
-\title{Principal Research SDE}
+\title{Principal SDE}
 % \address{11842 173rd Place NE}{Redmond, WA 98052}
 \mobile{425-241-4776}
 \email{ashleyf@briefrobotics.com}
@@ -22,11 +25,24 @@
 
 % \vspace*{-0.0cm}
 
-\section{Brief Robotics}
+\section{UIEvolution}
 
-\cventry{\large 2014--{\small Present}}{Founder}{working with a partner}{}{}{We've developed several interesting incubation projects (ask me in person). Enjoying life outside the Microsoft filter bubble; Ubuntu/OS X, AWS, Python, Node.js, Xamarin/Mono (still F\#), C, Forth, ...}
+\cventry{\large 2014--{\small Present}}{Principal SDE}{Automotive, CloudConnect Services team}{}{}
+{Developing connected car experiences.}
 
-\section{Microsoft Corporation{\small, 15 years}}
+\cvline{}{
+    \begin{itemize}
+        \item Built telemetry and analytics system, integrated across all products {\tiny Typescript, Node, Kinesis, AWS}
+        \item Developed geocoding service (forward and reverse) atop Open Street Maps data {\tiny PostGIS}
+        \item Implemented caching and aggregation layer and built dependent app services {\tiny Typescript, Node, Redis}
+    \end{itemize}
+    \vspace*{-\baselineskip}}
+
+\section{Brief Robotics{\small, co-founder}}
+
+\cventry{\large 2014--{\small Present}}{}{We've developed several interesting incubation projects (ask me in person)}{Beyond the Microsoft stack; Ubuntu/OS X, AWS, Python, Node.js, Xamarin/Mono (still F\#), C, Forth}{}{}
+
+\section{Microsoft Corporation{\small, 15 years - Principal RSDE}}
 
 \cventry{\large 2011--2014}{Robotics, Microsoft Research}{\small 3 years}{}{}{
 Produced a beautiful hardware platform. Built beyond state-of-the-art Kinect-based mapping and navigation system. Published program synthesis system applied to learning manipulation tasks.}
@@ -160,42 +176,47 @@ Here I worked on the rendering engine, editorial tools and Home and MyMSN pages 
 \cventry{\large 1998--1999}{Database Management Group, CDAM}{1.5 years}{}{}{
 Built company-wide metadata system for managing database and SAP object dependencies. Wrote COM interfaces to legacy systems. {\tiny (SQL, Oracle, C++, COM)}}
 
-% \section{Previous}
-% \cventry{\large 1996--1998}{Insights International}{1.5 years}{}{}{I was employee \#1 at this Internet startup; handling systems engineering and software development.}
-% 
-% \cventry{\large 1993--1996}{Thoen Publishing}{3 years}{}{}{Revolutionized pagination and image setting processes. Migrated publications to the web.}
-% \cventry{\large 1992--1993}{Moscow-Pullman Daily News}{1.5 years}{}{}{Migrated aging Hastech typesetting system to Macintoshes, QuarkXPress and image setters.}
+\section{Previous}
+\cventry{\large 1996--1998}{Insights International}{1.5 years}{}{}{I was employee \#1 at this Internet startup; handling systems engineering and software development.}
 
-% \section{Side Projects}
-% 
-% \cvline{}{
-%     \begin{itemize}
-%         \item Finishing a book, ``Forthwright'' -- covering Forth in detail and Charles Moore's career
-%         \item My own language, ``Brief'' -- a fixed arity, normal order, concatenative language
-%         \item Environment and curriculum for teaching  programming and robotics to kids
-%     \end{itemize}
-%     \vspace*{-\baselineskip}}
+\cventry{\large 1993--1996}{Thoen Publishing}{3 years}{}{}{Revolutionized pagination and image setting processes. Migrated publications to the web.}
+\cventry{\large 1992--1993}{Moscow-Pullman Daily News}{1.5 years}{}{}{Migrated aging Hastech typesetting system to Macintoshes, QuarkXPress and image setters.}
 
-% \section{Certifications}
-% \cventry{2012}{Functional Programming Principles in Scala}{Coursera}{}{}{}
-% \cventry{1999}{Microsoft Certified Solutions Developer}{Microsoft}{}{}{}
-% \cventry{1997}{Sun Certified Java Developer}{Sun Microsystems}{}{}{}
-% \cventry{1997}{Microsoft Certified Systems Engineer}{Microsoft}{}{}{}
-% 
-% \section{Patents}
-% \cventry{2014}{Program Synthesis for Robotic Tasks}{}{}{}{}
-% \cventry{2014}{Robotic Task Demonstration Interface}{}{}{}{}
-% \cventry{2011}{Night Vision for Robotic RGBD Sensors}{}{}{}{}
-% \cventry{2011}{Efficient Transformation from XML to JavaScript Objects}{}{}{}{}
-% \cventry{2010}{Light Weight Data and Media Transformation}{}{}{}{}
-% \cventry{2009}{Device Independent On-demand Compiling of Mobile Applications}{}{}{}{}
-% \cventry{2009}{Caching Navigation Content for Intermittently Connected Devices}{}{}{}{}
-% \cventry{2005}{Geolocal Search in an Inverted Index}{}{}{}{}
+\section{Publications}
+\cventry{2015}{Reliable Kinect-Based Navigation in Large Indoor Environments}{ICRA}{}{}{}
+\cventry{2014}{Program Synthesis by Examples for Object Repositioning Tasks}{IROS}{}{}{}
+
+\section{Patents}
+\cventry{2014}{Program Synthesis for Robotic Tasks}{}{}{}{}
+\cventry{2014}{Robotic Task Demonstration Interface}{}{}{}{}
+\cventry{2011}{Night Vision for Robotic RGBD Sensors}{}{}{}{}
+\cventry{2011}{Efficient Transformation from XML to JavaScript Objects}{}{}{}{}
+\cventry{2010}{Light Weight Data and Media Transformation}{}{}{}{}
+\cventry{2009}{Device Independent On-demand Compiling of Mobile Applications}{}{}{}{}
+\cventry{2009}{Caching Navigation Content for Intermittently Connected Devices}{}{}{}{}
+\cventry{2005}{Geolocal Search in an Inverted Index}{}{}{}{}
+
+\section{Certifications}
+\cventry{2012}{Functional Programming Principles in Scala}{Coursera}{}{}{}
+\cventry{1999}{Microsoft Certified Solutions Developer}{Microsoft}{}{}{}
+\cventry{1997}{Sun Certified Java Developer}{Sun Microsystems}{}{}{}
+\cventry{1997}{Microsoft Certified Systems Engineer}{Microsoft}{}{}{}
+
+\section{Side Projects}
+
+\cvline{}{
+    \begin{itemize}
+        \item Finishing a book, ``Forthwright'' -- covering Forth in detail and Charles Moore's career
+        \item Publishing another book, ``Lisp in F\#'' -- began as a blog series: http://bit.ly/lispsharp
+        \item My own language, ``Brief'' -- a fixed arity, normal order, concatenative language
+        \item Environment and curriculum for teaching  programming and robotics to kids
+    \end{itemize}
+    \vspace*{-\baselineskip}}
 
 % \clearpage
 % %-----       letter       ---------------------------------------------------------
 % % recipient data
-% \recipient{Company Recruitment team}{UIEvolution\\11332 NE 122nd Way, Suite 300\\Kirkland, WA 98032}
+% \recipient{Company Recruitment team}{Company\\Address\\City, WA 98052}
 % \date{March 9, 2015}
 % \opening{Dear Sir or Madam,}
 % \closing{Sincerely,}
